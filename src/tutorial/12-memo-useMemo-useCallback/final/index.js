@@ -27,8 +27,7 @@ const Index = () => {
   }, [cart])
 
   const mostExpensive = useMemo(() => calculateMostExpensive(products), [
-    products,
-  ])
+    products,])
   return (
     <>
       <h1>Count : {count}</h1>
